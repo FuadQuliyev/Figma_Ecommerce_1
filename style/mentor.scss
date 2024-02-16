@@ -1,0 +1,247 @@
+body {
+    width: 90%;
+    padding: 0 0 0 35px;
+}
+
+.header {
+    width: 1440px;
+    height: auto;
+    display: flex;
+
+    &__first_container {
+            margin: 18px 0 0 285px;
+            color: #252B42;
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+    }
+
+    &__second_container{
+        display: flex;
+        margin: 24px 0 0 100px;
+
+        &_item {
+            margin-left: 15px;
+            color: #737373;
+            font-family: "Montserrat", sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+        }
+    }
+
+    &__third_container {
+        margin: 24px 0 0 130px;
+        color: #23A6F0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    &__fourth_container {
+        display: flex;
+        margin: 10px 0 0 25px;
+    }
+}
+
+.main {
+    width: 100%;
+    height: auto;
+
+    &_section1 {
+        width: 100%;
+        height: 640px; 
+        background-image: url('/assets/back_image.png');
+        background-repeat: no-repeat;
+        position: relative;
+
+        &_cursor {
+            display:flex;
+            justify-content:space-between;
+            padding: 350px 0 0 0;
+
+            &_left {
+                padding: 0 0 0 30px;
+            }
+
+            &_right {
+                padding: 0 30px 0 0;
+            }
+
+           }
+
+           &_bottom {
+            padding: 185px 0 0 195px;
+           }
+
+       
+        &_blog {
+           position: absolute;
+           margin: 200px 0 0 400px;
+
+           &_h1 {
+            color: #fff;
+            font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+           }
+
+           &_middle {
+            margin: -25px 0 0 58px;
+
+                &_h4 {
+                    color: #fff;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                &_h4_2 {
+                    margin: -22px 0 0 85px;
+                    color: #fff;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+
+
+            &_end {
+                background-color:#23A6F0;
+                color: #fff;
+                width: 204px;
+                height: 54px;
+                border-radius: 5px;      
+                font-family: "Montserrat", sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                margin: 15px 0 0 195px; 
+                text-align: center;  
+                padding: 20px 0 0 0;   
+            }
+        }
+    }
+
+    &_section2 {
+        width: 100%;
+        height:392px;
+        background-color: #FAFAFA;
+
+        &_blog {
+            width: 1084px;
+            height: 392px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0 0 150px;
+            padding: 80px 0 80px 0;
+
+            &_item1 {
+                width: 332px;
+                height: 232px;
+                border: 1px solid #ECECEC;
+                background-image: url('/assets/coffee.png');
+
+                &_texts {
+                    &_h6 {
+                        padding: 26px 0 0 27px;
+                        width: 81px;
+                        height: 20px;
+                        color: #737373;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+
+                    &_h2 {
+                        padding: 0px 0 0 27px;    
+                        width: 94px;
+                        height: 64px;
+                        color: #252B42;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    &_h6_2 {
+                        padding: 0 0 0 27px;
+                        width: 86px;
+                        height: 16px;
+                        color: #737373;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+
+            &_item2 {
+                width: 332px;
+                height: 232px;
+                border: 1px solid #ECECEC;
+                background-image: url('/assets/apple.png');
+
+                &_texts {
+                    &_h6 {
+                        padding: 26px 0 0 27px;
+                        color: #737373;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+
+                    &_h2 {
+                        padding: 0 0 0 27px;
+                        color: #252B42;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    &_h6_2 {
+                        padding: 0 0 0 27px;
+                        color: #737373;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+            }
+
+            }
+
+            &_item3 {
+                width: 332px;
+                height: 232px;
+                border: 1px solid #ECECEC;
+                background-image: url('/assets/meat.png');
+
+                &_texts {
+                    &_h6 {
+                        padding: 26px 0 0 27px;
+                        color: #737373;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+
+                    &_h2 {
+                        padding: 0 0 0 27px;
+                        color: #252B42;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    &_h6_2 {
+                        padding: 0 0 0 27px;
+                        color: #737373;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,204 @@
+body {
+  width: 90%;
+  padding: 0 0 0 35px;
+}
+
+.header {
+  width: 1440px;
+  height: auto;
+  display: flex;
+}
+.header__first_container {
+  margin: 18px 0 0 285px;
+  color: #252B42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.header__second_container {
+  display: flex;
+  margin: 24px 0 0 100px;
+}
+.header__second_container_item {
+  margin-left: 15px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+.header__third_container {
+  margin: 24px 0 0 130px;
+  color: #23A6F0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.header__fourth_container {
+  display: flex;
+  margin: 10px 0 0 25px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+.main_section1 {
+  width: 100%;
+  height: 640px;
+  background-image: url("/assets/back_image.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.main_section1_cursor {
+  display: flex;
+  justify-content: space-between;
+  padding: 350px 0 0 0;
+}
+.main_section1_cursor_left {
+  padding: 0 0 0 30px;
+}
+.main_section1_cursor_right {
+  padding: 0 30px 0 0;
+}
+.main_section1_bottom {
+  padding: 185px 0 0 195px;
+}
+.main_section1_blog {
+  position: absolute;
+  margin: 200px 0 0 400px;
+}
+.main_section1_blog_h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.main_section1_blog_middle {
+  margin: -25px 0 0 58px;
+}
+.main_section1_blog_middle_h4 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main_section1_blog_middle_h4_2 {
+  margin: -22px 0 0 85px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main_section1_blog_end {
+  background-color: #23A6F0;
+  color: #fff;
+  width: 204px;
+  height: 54px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0 0 195px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.main_section2 {
+  width: 100%;
+  height: 392px;
+  background-color: #FAFAFA;
+}
+.main_section2_blog {
+  width: 1084px;
+  height: 392px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 150px;
+  padding: 80px 0 80px 0;
+}
+.main_section2_blog_item1 {
+  width: 332px;
+  height: 232px;
+  border: 1px solid #ECECEC;
+  background-image: url("/assets/coffee.png");
+}
+.main_section2_blog_item1_texts_h6 {
+  padding: 26px 0 0 27px;
+  width: 81px;
+  height: 20px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+.main_section2_blog_item1_texts_h2 {
+  padding: 0px 0 0 27px;
+  width: 94px;
+  height: 64px;
+  color: #252B42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main_section2_blog_item1_texts_h6_2 {
+  padding: 0 0 0 27px;
+  width: 86px;
+  height: 16px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+.main_section2_blog_item2 {
+  width: 332px;
+  height: 232px;
+  border: 1px solid #ECECEC;
+  background-image: url("/assets/apple.png");
+}
+.main_section2_blog_item2_texts_h6 {
+  padding: 26px 0 0 27px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+.main_section2_blog_item2_texts_h2 {
+  padding: 0 0 0 27px;
+  color: #252B42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main_section2_blog_item2_texts_h6_2 {
+  padding: 0 0 0 27px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+.main_section2_blog_item3 {
+  width: 332px;
+  height: 232px;
+  border: 1px solid #ECECEC;
+  background-image: url("/assets/meat.png");
+}
+.main_section2_blog_item3_texts_h6 {
+  padding: 26px 0 0 27px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+.main_section2_blog_item3_texts_h2 {
+  padding: 0 0 0 27px;
+  color: #252B42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main_section2_blog_item3_texts_h6_2 {
+  padding: 0 0 0 27px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}/*# sourceMappingURL=mentor.css.map */
